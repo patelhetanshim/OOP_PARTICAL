@@ -4,7 +4,7 @@ public class p2 {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
 
-        System.out.print("Enter a 5 digit number (<=10000): ");
+        System.out.print("Enter a 5 digit number: ");
         int num = sc.nextInt();
 
         
