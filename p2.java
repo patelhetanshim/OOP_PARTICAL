@@ -1,21 +1,30 @@
- import java.util.Scanner;
+import java.util.Scanner;
 
 public class p2 {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
 
-        System.out.print("Enter 5 digit number: ");
-        String num = sc.next();
+        System.out.print("Enter a 5 digit number (<=10000): ");
+        int num = sc.nextInt();
 
-        String result = "";
+        
+        if (num < 10000 || num > 99999) {
+            System.out.println("Invalid input! Please enter a 5 digit number.");
+            return;
+        }
 
-        for (int i = 0; i < num.length(); i++) {
-            int digit = Character.getNumericValue(num.charAt(i));
+        int temp = num;
+        int result = 0;
+        int place = 1;
+
+        while (temp > 0) {
+            int digit = temp % 10;
             digit = (digit + 1) % 10;
-            result = result + digit;
+            result = result + (digit * place);
+            place = place * 10;
+            temp = temp / 10;
         }
 
         System.out.println("Output: " + result);
     }
-}  
-
+}
