@@ -2,7 +2,7 @@ import java.util.Scanner;
 
 public class pratical14{
 
-    // Method with throws clause
+    
     static double average(String[] values) throws NullPointerException, NumberFormatException {
 
         double sum = 0;
