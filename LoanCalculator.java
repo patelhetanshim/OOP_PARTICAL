@@ -1,4 +1,16 @@
- import java.util.Scanner;
+/*A bank wants to offer a facility to calculate EMI (Equated Monthly Installment) for different types of 
+loans. Design a class LoanCalculator with the following overloaded methods:  
+calculateEMI(int principal, int time, float rate): For home loans  
+calculateEMI(double principal, int time, double rate): For vehicle loans  
+calculateEMI(int principal, int time): For short-term personal loans with a fixed interest rate of 10%  
+Demonstrate the use of all three methods in the main method by calculating EMIs for different loan 
+types. 
+*/
+
+
+
+
+import java.util.Scanner;
 
 class LoanCalculator {
 
