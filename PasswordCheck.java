@@ -1,3 +1,18 @@
+/*Create a Java method isValidPassword(String password) that checks if a given string is a valid 
+password based on the following rules:  
+● It must have at least eight characters.  
+● It must consist only of letters and digits.  
+● It must contain at least two digits.  
+The program should prompt the user to enter a password and display "Valid Password" or "Invalid 
+SHREE SWAMI ATMANAND SARASWATI INSTITUTE 
+OF TECHNOLOGY 
+COMPUTER ENGINEERING DEPARTMENT 
+Password" accordingly. 
+*/
+
+
+
+
 import java.util.Scanner;
 
 class PasswordCheck {
