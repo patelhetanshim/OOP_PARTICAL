@@ -1,3 +1,15 @@
+/*
+Create a class BankAccount with accountId (String), accountHolderName (String), and balance 
+(double) as instance variables. Include methods assignValues() (for initialization) and displayValues(). 
+Implement a search function that takes an accountId as input and, if found within an array of 
+BankAccount objects, displays the details of that specific account. In your main method, create an 
+array of at least five BankAccount objects and demonstrate adding, displaying, and searching for 
+accounts. 
+*/
+
+
+
+
 import java.util.Scanner;
 
 class BankAccount {
